@@ -2,6 +2,14 @@
 
 A podcast website for "XSTY'S ESSENCE" hosted by Christabel. Real talk about life, faith, relationships, and everything in between.
 
+## Features
+
+- **Responsive Design** - Works on all devices
+- **Podcast Episodes** - YouTube integration for episodes
+- **Interactive Dilemmas** - Engaging content sections
+- **Modern UI** - Clean, professional design
+- **Fast Loading** - Optimized with Vite
+
 ## Tech Stack
 
 - React + TypeScript
