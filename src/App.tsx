@@ -2,7 +2,7 @@ import React from 'react'
 import { Header } from './components/Header'
 import { Welcome } from './components/Welcome'
 import { Dillemas } from './components/Dillemas'
-import { Youtube } from './components/youtube'
+import { LatestEpisodes } from './components/LatestEpisodes'
 import { Footer } from './components/Footer'
 
 export function App() {
@@ -12,6 +12,7 @@ export function App() {
       <main>
         {/* Other sections will be added later */}
         <Welcome />
+        <LatestEpisodes />
         <Dillemas />
      
       </main>

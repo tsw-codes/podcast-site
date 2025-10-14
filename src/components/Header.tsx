@@ -14,6 +14,9 @@ export const Header: React.FC = () => {
           <a href="#home" className="text-white hover:text-gray-300 transition-colors">
             <Home className="w-6 h-6" />
           </a>
+          <a href="#latest" className="text-white hover:text-gray-300 transition-colors">
+            Latest
+          </a>
           <a href="#dilemmas" className="text-white hover:text-gray-300 transition-colors">
             <MessageSquare className="w-6 h-6" />
           </a>
