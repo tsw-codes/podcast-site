@@ -82,6 +82,10 @@ export const LatestEpisodes: React.FC = () => {
 
   const apiKey = import.meta.env.VITE_YT_API_KEY as string | undefined
   const channelId = import.meta.env.VITE_YT_CHANNEL_ID as string | undefined
+  
+  // Debug: log environment variables (remove this after testing)
+  console.log('API Key exists:', !!apiKey)
+  console.log('Channel ID exists:', !!channelId)
   const channelUrl = useMemo(() => 'https://www.youtube.com/@XstysEssencePodcast', [])
 
   useEffect(() => {
